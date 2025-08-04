@@ -4,7 +4,7 @@ export default function Home() {
   const [content, setContent] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/content')
+    fetch('https://painel-lord-of-mysteries-458y.vercel.app/api/content')
       .then(res => res.json())
       .then(setContent);
   }, []);
