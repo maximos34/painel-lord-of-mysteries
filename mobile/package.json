@@ -1,0 +1,13 @@
+{
+  "name": "lotm-mobile",
+  "version": "1.0.0",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-native": "latest",
+    "expo": "latest"
+  }
+}

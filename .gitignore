@@ -1,0 +1,25 @@
+# Ignorar dependências e arquivos de build
+node_modules/
+frontend/.next/
+mobile/.expo/
+mobile/.expo-shared/
+*.log
+*.env
+__pycache__/
+*.pyc
+# Ignorar arquivos do Docker
+*.pid
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+# Ignorar arquivos de configuração temporários
+package-lock.json
+yarn.lock
+# Ignorar arquivos de configuração do VSCode
+.vscode/
+# Ignorar arquivos de build do Python
+backend/.venv/
+backend/.mypy_cache/
+backend/.pytest_cache/
+# Ignorar arquivos de build do React Native
+mobile/build/
